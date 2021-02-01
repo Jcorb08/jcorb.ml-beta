@@ -5,7 +5,10 @@
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #353535;
     border-bottom: solid 2px darkorange;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25em;
 }
 
 .nav-header a{
@@ -13,7 +16,7 @@
     display: block;
     color: darkorange;
     text-align: center;
-    padding: 14px 14px;
+    padding: 16px 14px;
     text-decoration: none;
 }
 
@@ -22,11 +25,64 @@
     color: #353535;    
 }
 
+.nav-header image{
+    top: 0;
+    height: 50%;
+}
+
 /*Main Page*/
 body{
     background-color: #353535;
     margin: 0;
 }
 
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main{
+    margin-top: 50px;
+    height: 1500px;
+}
+
+/*Footer Navigation*/
+.footer{
+    margin-top: 0;
+    overflow: hidden;
+    width: 100%;
+    bottom: 0;
+    background-color: #353535;
+    border-top: solid 2px darkorange;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer a{
+    display: block;
+    color: darkorange;
+    text-align: center;
+    
+    text-decoration: none;
+}
+
+.footer a:hover{
+    background: darkorange;
+    color: #353535;    
+}
+
+.source-links a{
+    float: left;
+    font-size: 1.25em;
+    padding: 14px 14px;
+}
+
+.social-links a{
+    float: right;
+    font-size: 2em;
+    padding: 6px 14px;
+}
 
 
