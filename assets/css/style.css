@@ -1,0 +1,32 @@
+/*Header Navigation*/
+
+.nav-header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: solid 2px darkorange;
+}
+
+.nav-header a{
+    float: right;
+    display: block;
+    color: darkorange;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+.nav-header a:hover{
+    background: darkorange;
+    color: #353535;    
+}
+
+/*Main Page*/
+body{
+    background-color: #353535;
+    margin: 0;
+}
+
+
+
