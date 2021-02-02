@@ -30,10 +30,11 @@
     height: 50%;
 }
 
-/*Main Page*/
-body{
+/*Main Items*/
+body, html {
     background-color: #353535;
     margin: 0;
+    height: 100%;
 }
 
 h1 h2 h3 h4 h5 h6{
@@ -44,9 +45,31 @@ p {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.main{
+/*First Image*/
+
+.train-img{
     margin-top: 50px;
-    height: 1500px;
+    height: 100%;
+    background-image: url("../images/train_1920.jpg");
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.train-img-text{
+    position: absolute;
+    display: block;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.train-img-text h2{
+    padding: 8px 8px;
+    background: darkorange;
+    color: #353535;
+    border: solid 2px #353535;
 }
 
 /*Footer Navigation*/
