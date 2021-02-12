@@ -1,3 +1,3 @@
 Website for Jcorb.ml
 
-Currently making adn is not live.
+Currently making and is not live.
